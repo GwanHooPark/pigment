@@ -1,7 +1,7 @@
 import globalComponents from './globalComponents';
 import Fragment from 'vue-fragment';
 
-import '@/assets/css/common.css';
+import '@/assets/css/global.css';
 
 export default {
 	install(Vue) {

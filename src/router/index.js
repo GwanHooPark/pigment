@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import SubMenuAdmin from './submenu/admin';
+import SubMenuList from './submenu/list';
 
 Vue.use(VueRouter);
 
@@ -8,8 +8,8 @@ const routes = [
 	{
 		path: '/',
 		//redirect: { name: 'Form' },
-		component: () => import('@/components/layout/DefaultLayout'),
-		children: [SubMenuAdmin],
+		component: () => import('@/components/layout/Default'),
+		children: [SubMenuList],
 	},
 	// {
 	// 	path: '*',
