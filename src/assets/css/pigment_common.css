@@ -1,0 +1,13 @@
+/* 공통-테마 */
+:root {
+    --color_basic :#000;
+    --color_sub : #bdbdbd;
+    --color_point1 :#ff001c;          
+}
+.color_point1 {
+    color: var(--color_point1);
+}
+
+.hide {
+    display: none;
+}

@@ -1,12 +1,10 @@
 <template>
-    <div>main slide</div>
+    <div style="height:800px">main slide</div>
 </template>
 <script>
+
 export default {
   name: 'MainSlide',
-  props: {
-    msg: String
-  },
   mounted() {
     console.log(11111);
   }

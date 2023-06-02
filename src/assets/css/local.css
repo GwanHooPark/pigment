@@ -1,0 +1,86 @@
+.local_wrap {
+    border:1px solid #d9d9d9;
+}
+.local_wrap header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 20px 0;
+    width: 100%;
+    background:#fff;
+    border-bottom: 1px solid #d9d9d9;
+    display: none;
+}
+.local_wrap h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.local_wrap h2 {
+    margin-top: 50px;
+    padding-top: 36px;
+    border-top: 1px double #000;
+}
+.local_wrap h2:first-child {
+    margin:0;
+    padding:0;
+    border:0;
+}
+.local_wrap aside {
+    position: fixed;
+    top: 0;
+    padding-top: 113px;
+    padding-top: 70px;
+    width:300px;
+    height: 100vh;
+    border-right: 1px solid #d9d9d9;
+}
+.local_wrap aside ul {
+    padding-top: 50px;
+}
+.local_wrap aside li {
+    padding: 10px 20px;
+}
+.local_wrap_main {
+    display: flex;
+}
+.local_container {
+    margin-left: 300px;
+    padding: 30px 0 0 50px;
+    width: 100%;
+    position: relative;  
+}
+/*
+.local_container_position,
+#hamburger, #accordian {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+*/
+.local_align {
+    display: flex;
+}
+.local_parallel_list {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* 중분류 */
+.local_category_middle {
+    margin: 20px 0;
+}
+.local_category_middle li {
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+    background: #333;
+    border-radius: 3px;
+}
+#accordian .local_style {
+    width: 300px;
+    border: 1px solid #ddd;
+}

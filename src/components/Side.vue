@@ -1,5 +1,6 @@
 <template>
     <aside>
+        <h1>PIGMENT</h1>
         <ul>
             <li>슬라이드</li>
             <li>모달</li>

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* tag reset */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
@@ -69,27 +70,4 @@ a:active {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.wrap {
-    border:1px solid #d9d9d9;
-}
-header {
-    padding: 20px 0;
-    border-bottom: 1px solid #d9d9d9;
-}
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
-aside {
-    width:300px;
-    height: 100vh;
-    border-right: 1px solid #d9d9d9;
-}
-aside ul {
-    padding-top: 50px;
-}
-aside li {
-    padding: 10px 20px;
 }

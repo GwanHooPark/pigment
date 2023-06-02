@@ -8,7 +8,7 @@ const list = {
 	},
 	children: [
 		{
-			path: '/',
+			path: '/test',
 			component: () => import('@/views/MainSlide.vue'),
 		},
 	],

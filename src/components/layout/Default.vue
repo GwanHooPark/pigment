@@ -1,12 +1,10 @@
 <template>
-    <div class="wrap">
+    <div class="local_wrap">
         <HeaderComponent></HeaderComponent>
-        <div>
+        <div class="local_wrap_main">
             <SideComponent></SideComponent>
-            <main>
-                <div>
-                  <router-view></router-view>
-                </div>
+            <main class="local_container">
+                <router-view></router-view>
             </main>
         </div>
     </div>
