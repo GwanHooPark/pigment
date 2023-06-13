@@ -1,12 +1,9 @@
 <template>
-  <div id="app">
+	<div id="app">
 		<router-view />
 	</div>
 </template>
 
-<script>
-</script>
+<script></script>
 
-<style>
-
-</style>
+<style></style>

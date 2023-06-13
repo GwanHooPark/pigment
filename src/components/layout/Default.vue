@@ -1,18 +1,18 @@
 <template>
-    <div class="local_wrap">
-        <HeaderComponent></HeaderComponent>
-        <div class="local_wrap_main">
-            <SideComponent></SideComponent>
-            <main class="local_container">
-                <router-view></router-view>
-            </main>
-        </div>
-    </div>
+	<div class="local_wrap">
+		<HeaderComponent></HeaderComponent>
+		<div class="local_wrap_main">
+			<SideComponent></SideComponent>
+			<main class="local_container">
+				<router-view></router-view>
+			</main>
+		</div>
+	</div>
 </template>
 
 <script>
 export default {
-    name : 'DefaultLayer'
+	name: 'DefaultLayer',
 };
 </script>
 

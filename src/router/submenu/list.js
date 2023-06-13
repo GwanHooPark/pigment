@@ -11,7 +11,7 @@ const list = {
 			path: '/test',
 			component: () => import('@/views/MainSlide.vue'),
 		},
-        {
+		{
 			path: '/newproduct',
 			component: () => import('@/views/NewProductCalendar.vue'),
 		},

@@ -1,14 +1,12 @@
 <template>
-    <header>
-     <h1>PIGMENT</h1>
-    </header>
+	<header>
+		<h1>PIGMENT</h1>
+	</header>
 </template>
 <script>
 export default {
-    name: 'HeaderComponent',
-}
+	name: 'HeaderComponent',
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
