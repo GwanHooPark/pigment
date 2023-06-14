@@ -41,6 +41,19 @@
 			<div data-remain-sec="10" class="remainInfo"></div>
 		</div>
 		&nbsp; &nbsp; &nbsp;
+		<div style="float: left; padding-right: 50px" class="item">
+			<div>
+				<a href="#"
+					><img
+						style="width: 200px"
+						src="https://roompacker.cdn.smart-img.com/newRoompacker/calendar/6440be03a3db6.jpeg"
+				/></a>
+			</div>
+			<div>나시 탑</div>
+			<div>15,800</div>
+			<div data-remain-sec="0" class="remainInfo"></div>
+		</div>
+		&nbsp; &nbsp; &nbsp;
 	</div>
 </template>
 
