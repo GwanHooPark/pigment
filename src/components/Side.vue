@@ -7,6 +7,7 @@
             <li>타임세일</li>
             <li>풀페이지</li> -->
 			<li><router-link to="/newproduct">신상품 캘린더</router-link></li>
+			<li><router-link to="/timelimit">타임 세일</router-link></li>
 			<!-- <li>레이아웃</li>
             <li>햄버거 메뉴</li>
             <li>아코디언 메뉴</li> -->

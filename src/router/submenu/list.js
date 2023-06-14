@@ -15,6 +15,10 @@ const list = {
 			path: '/newproduct',
 			component: () => import('@/views/NewProductCalendar.vue'),
 		},
+		{
+			path: '/timelimit',
+			component: () => import('@/views/HcTimeLimit.vue'),
+		},
 	],
 };
 
