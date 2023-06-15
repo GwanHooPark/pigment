@@ -13,11 +13,15 @@ const list = {
 		},
 		{
 			path: '/newproduct',
-			component: () => import('@/views/NewProductCalendar.vue'),
+			component: () => import('@/views/HcNewProductCalendar.vue'),
 		},
 		{
 			path: '/timelimit',
 			component: () => import('@/views/HcTimeLimit.vue'),
+		},
+		{
+			path: '/storeInfo',
+			component: () => import('@/views/HcStoreInfo.vue'),
 		},
 	],
 };
