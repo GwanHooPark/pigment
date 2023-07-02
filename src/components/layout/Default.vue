@@ -5,6 +5,7 @@
 			<SideComponent></SideComponent>
 			<main class="local_container">
 				<router-view></router-view>
+				<HomeButtonComponent></HomeButtonComponent>
 			</main>
 		</div>
 	</div>

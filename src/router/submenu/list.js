@@ -12,6 +12,10 @@ const list = {
 			component: () => import('@/views/MainSlide.vue'),
 		},
 		{
+			path: '/',
+			component: () => import('@/views/HcMain.vue'),
+		},
+		{
 			path: '/newproduct',
 			component: () => import('@/views/HcNewProductCalendar.vue'),
 		},
